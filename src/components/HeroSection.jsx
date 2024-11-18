@@ -14,12 +14,12 @@ const HeroSection = () => {
         className='font-alumni font-semibold text-center leading-[75%] text-black tracking-[0.3rem] text-[16vw] mt-6
                       md:text-[19vw] md:mt-16
                       retina:text-[20vw] retina:mt-20
-                      lg:text-[21vw] lg:mt-20'
+                      lg:text-[20vw] lg:mt-20'
       >
         Salim Maulana
       </h1>
 
-      <div className='w-full overflow-hidden h-[40vh] md:h-[75vh] pt-4'>
+      <div className='w-full overflow-hidden h-[40vh] md:h-[50vh] lg:h-[75vh] pt-4'>
         <img
           src={profilPhoto}
           className='object-cover h-full w-full'

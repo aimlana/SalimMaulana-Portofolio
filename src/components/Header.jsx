@@ -16,8 +16,8 @@ function Header() {
             </button>
             <p className='font-alumni text-3xl font-medium hidden md:block'>Menu</p>
           </div>
-          <a href='/home' className='flex items-center gap-3 cursor-pointer'>
-            <img src={myLogo} className='w-5' />
+          <a href='/home' className='flex items-center gap-4 cursor-pointer'>
+            <img src={myLogo} className='w-4 md:w-5' />
             <h1
               className='font-alumni text-4xl text-black font-semibold hidden md:block'
               tabIndex={0}
@@ -25,11 +25,11 @@ function Header() {
               Salim Maulana
             </h1>
           </a>
-          <a className='flex gap-2'>
+          <a className='flex gap-2 items-center'>
             <h1 className='font-alumni text-3xl text-black font-medium hidden md:block'>
               Contact me
             </h1>
-            <img src={topRightArrow} />
+            <img src={topRightArrow} className='h-4 md:h-full' />
           </a>
         </div>
       </header>
