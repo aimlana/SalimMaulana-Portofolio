@@ -5,7 +5,7 @@ import star from '../assets/images/star.png';
 
 const InfiniteSlider = () => {
   return (
-    <section className='stock-ticker bg-black mb-12 py-4 md:py-6 overflow-hidden select-none flex gap-5'>
+    <section className='slider bg-black mb-12 py-4 md:py-6 overflow-hidden select-none flex gap-5'>
       <ul className='list-none shrink-0 min-w-full flex justify-between items-center gap-5'>
         <li>
           <img src={frontEndText} className='h-[4vh] md:h-full' />
@@ -92,18 +92,15 @@ const InfiniteSlider = () => {
           max-width: 100%;
         }
 
-        .stock-ticker {
-        }
-
-        .stock-ticker ul {
+        .slider ul {
           animation: scroll 20s linear infinite;
         }
 
-        .stock-ticker:hover ul {
+        .slider:hover ul {
           animation-play-state: paused;
         }
         
-        .stock-ticker:hover {
+        .slider:hover {
           background: #5d5d5d;
         }
 
