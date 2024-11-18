@@ -1,0 +1,12 @@
+body {
+  background-color: #fcf6ea;
+}
+
+/* Hidden Scrollbar */
+.hide-scroll-y::-webkit-scrollbar {
+  width: 0rem;
+}
+
+.hide-scroll-y::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
