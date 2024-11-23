@@ -101,7 +101,7 @@ const InfiniteSlider = () => {
         }
         
         .slider:hover {
-          background: #5d5d5d;
+          background: #383838;
         }
 
         @keyframes scroll {

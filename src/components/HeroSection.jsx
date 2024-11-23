@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className='pt-2 pb-8 px-3 md:px-5'>
       <p
-        className='font-allison leading-[75%] z-10 absolute text-[#EFA235] text-[10vw] right-0 me-12 mt-3
+        className='font-allison leading-[75%] z-10 absolute text-crayola text-[10vw] right-0 me-12 mt-3
                     md:text-[12vw] md:mt-8 md:me-24
                     lg:text-[14vw] lg:mt-5 lg:me-28'
       >
