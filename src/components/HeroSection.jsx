@@ -14,7 +14,7 @@ const HeroSection = () => {
         className='font-alumni font-semibold text-center leading-[75%] text-black tracking-[0.3rem] text-[16vw] mt-6
                       md:text-[19vw] md:mt-16
                       retina:text-[20vw] retina:mt-20
-                      lg:text-[20vw] lg:mt-20'
+                      lg:text-[20vw] lg:mt-20 lg:tracking-[0.516rem]'
       >
         Salim Maulana
       </h1>
