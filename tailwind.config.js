@@ -12,6 +12,7 @@ export default {
       },
       colors: {
         black: '#2C2C2C',
+        crayola: '#FFA321',
       },
     },
   },
