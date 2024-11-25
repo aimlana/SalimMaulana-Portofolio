@@ -15,7 +15,7 @@ const InfiniteSlider = () => {
   ];
 
   return (
-    <section className='slider bg-black mb-12 py-4 md:py-6 overflow-hidden select-none flex gap-5'>
+    <section className='slider bg-black py-4 md:py-6 overflow-hidden select-none flex gap-5'>
       {[...Array(2)].map((_, ulIndex) => (
         <ul
           key={ulIndex}
@@ -46,7 +46,7 @@ const InfiniteSlider = () => {
         }
 
         .slider ul {
-          animation: scroll 20s linear infinite;
+          animation: scroll 10s linear infinite;
         }
 
         .slider:hover ul {
