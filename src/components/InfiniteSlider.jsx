@@ -4,88 +4,41 @@ import webDevText from '../assets/images/webDevText.png';
 import star from '../assets/images/star.png';
 
 const InfiniteSlider = () => {
+  // Data gambar
+  const images = [
+    { src: frontEndText, type: 'text' },
+    { src: star, type: 'icon' },
+    { src: webDevText, type: 'text' },
+    { src: star, type: 'icon' },
+    { src: uiUxText, type: 'text' },
+    { src: star, type: 'icon' },
+  ];
+
   return (
     <section className='slider bg-black mb-12 py-4 md:py-6 overflow-hidden select-none flex gap-5'>
-      <ul className='list-none shrink-0 min-w-full flex justify-between items-center gap-5'>
-        <li>
-          <img src={frontEndText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={webDevText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={uiUxText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={frontEndText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={webDevText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={uiUxText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-      </ul>
-
-      <ul
-        aria-hidden='true'
-        className='list-none shrink-0 min-w-full flex justify-between items-center gap-5'
-      >
-        <li>
-          <img src={frontEndText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={webDevText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={uiUxText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={frontEndText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={webDevText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-        <li>
-          <img src={uiUxText} className='h-[4vh] md:h-full' />
-        </li>
-        <li>
-          <img src={star} className='w-[4vw] md:w-full' />
-        </li>
-      </ul>
+      {[...Array(2)].map((_, ulIndex) => (
+        <ul
+          key={ulIndex}
+          className={`list-none shrink-0 min-w-full flex justify-between items-center ${
+            ulIndex === 1 ? 'ms-10' : ''
+          }`}
+          aria-hidden={ulIndex === 1 ? 'true' : 'false'}
+        >
+          {images.map((image, idx) => (
+            <li key={idx}>
+              <img
+                src={image.src}
+                className={
+                  image.type === 'text'
+                    ? 'h-[4vh] md:h-full'
+                    : 'w-[4vw] md:w-full'
+                }
+                alt=''
+              />
+            </li>
+          ))}
+        </ul>
+      ))}
 
       <style>{`
         img {
@@ -109,7 +62,6 @@ const InfiniteSlider = () => {
             transform: translateX(calc(-100% - 1.25rem));
           }
         }
-        
       `}</style>
     </section>
   );
