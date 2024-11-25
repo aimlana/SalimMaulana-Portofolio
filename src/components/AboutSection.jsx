@@ -27,8 +27,8 @@ const AboutSection = () => {
       </div>
       <img
         src={twoStarPattern}
-        className='absolute right-0 -mt-48 w-[30vw] -z-10 me-6
-                    md:w-[20vw] md:-mt-56 md:right-44 md:z-0
+        className='absolute right-0 -mt-48 w-[25vw] -z-10 me-9
+                    md:w-[20vw] md:-mt-56 md:right-36 md:z-0
                     lg:static lg:mt-0 lg:me-12 lg:w-[25vw]'
         alt='Star Pattern'
       />
