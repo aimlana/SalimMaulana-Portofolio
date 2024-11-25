@@ -4,7 +4,7 @@ import myLogo from '../assets/images/sLogoCrayola.png'
 function Header() {
   return (
     <>
-      <header className='py-3 px-3 md:px-5 border-b-2 border-black w-full'>
+      <header className='py-3 px-3 md:px-7 border-b-2 border-black w-full'>
         <div className='flex justify-between items-center'>
           <div className='flex items-center gap-3'>
             <button>

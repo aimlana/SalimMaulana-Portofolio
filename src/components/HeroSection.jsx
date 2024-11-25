@@ -2,7 +2,7 @@ import profilPhoto from '../assets/images/profilePhoto.jpg';
 
 const HeroSection = () => {
   return (
-    <section className='pt-2 pb-8 px-3 md:px-5'>
+    <section className='pt-2 pb-8 px-3 md:px-7'>
       <p
         className='font-allison leading-[75%] z-10 absolute text-crayola text-[10vw] right-0 me-12 mt-3
                     md:text-[12vw] md:mt-8 md:me-24

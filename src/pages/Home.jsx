@@ -13,7 +13,7 @@ function Home() {
       <InfiniteSlider />
 
       {/* About Section */}
-      <section className='px-5 py-32 flex items-center justify-between'>
+      <section className='px-5 p-32 flex items-center justify-between'>
         <div className="ps-12">
           <h2 className='font-alumni text-[10rem] text-black font-medium leading-[75%]'>
             About me
