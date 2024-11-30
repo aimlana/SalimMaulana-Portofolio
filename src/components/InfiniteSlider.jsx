@@ -19,8 +19,8 @@ const InfiniteSlider = () => {
       {[...Array(2)].map((_, ulIndex) => (
         <ul
           key={ulIndex}
-          className={`list-none shrink-0 min-w-full flex justify-between items-center ${
-            ulIndex === 1 ? 'ms-10' : ''
+          className={`list-none shrink-0 min-w-full flex justify-between items-center gap-5 ${
+            ulIndex === 1 ? 'ms-5 lg:ms-10' : ''
           }`}
           aria-hidden={ulIndex === 1 ? 'true' : 'false'}
         >
