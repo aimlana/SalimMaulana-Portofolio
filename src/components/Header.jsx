@@ -1,7 +1,7 @@
 import topRightArrow from '../assets/images/topRightArrow.svg'
 import myLogo from '../assets/images/sLogoCrayola.png'
 
-function Header() {
+const Header = () => {
   return (
     <>
       <header className='py-3 px-3 md:px-7 border-b-2 border-black w-full'>
@@ -14,7 +14,9 @@ function Header() {
                 <span className='h-0.5 w-6 bg-black'></span>
               </div>
             </button>
-            <p className='font-alumni text-black text-3xl font-medium hidden md:block'>Menu</p>
+            <p className='font-alumni text-black text-3xl font-medium hidden md:block'>
+              Menu
+            </p>
           </div>
           <a href='/home' className='flex items-center gap-3 cursor-pointer'>
             <img src={myLogo} className='w-4 md:w-5' />
@@ -35,6 +37,6 @@ function Header() {
       </header>
     </>
   );
-}
+};
 
 export default Header;

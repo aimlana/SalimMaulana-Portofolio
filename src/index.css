@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-alumni: 'Alumni Sans', sans-serif;
+  --font-allison: 'allison', cursive;
+
+  --color-black: #2C2C2C;
+  --color-crayola: #FFA321;
+
+  --text-10xl: 10rem;
+  --text-10xl--line-height: 1;
+}
