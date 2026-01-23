@@ -92,8 +92,8 @@ const ProjectDetail = () => {
       ],
       color: '#FF6B6B',
       accentColor: 'bg-[#FF6B6B]',
-      projectLink: 'https://ratuboga-order.example.com',
-      githubLink: 'https://github.com/salimmlana/ratu-boga-order',
+      projectLink: null,
+      githubLink: 'https://github.com/aimlana/FE-React-RatuBoga',
       images: [rb1, rb2, rb3, rb4, rb5, rb6],
       features: [
         'QR Code based ordering system for contactless dining',
@@ -130,8 +130,8 @@ const ProjectDetail = () => {
       ],
       color: '#4ECDC4',
       accentColor: 'bg-[#4ECDC4]',
-      projectLink: 'https://trubers.example.com',
-      githubLink: 'https://github.com/salimmlana/trubers',
+      projectLink: 'https://trubers.id/',
+      githubLink: null,
       images: [tb1, tb2, tb3, tb4, tb5, tb6],
       features: [
         'Social media data scraping from TikTok & Instagram using Puppeteer',
@@ -167,8 +167,8 @@ const ProjectDetail = () => {
       ],
       color: '#06D6A0',
       accentColor: 'bg-[#06D6A0]',
-      projectLink: 'https://wajo.example.com',
-      githubLink: 'https://github.com/salimmlana/wajo',
+      projectLink: null,
+      githubLink: 'https://github.com/aimlana/WAJO-WhatsAppJadwalOtomatis',
       images: [wajo1, wajo2, wajo3, wajo4, wajo5, wajo6],
       features: [
         'Automated WhatsApp message scheduling with cron jobs',
@@ -205,7 +205,7 @@ const ProjectDetail = () => {
       color: '#FFD166',
       accentColor: 'bg-[#FFD166]',
       projectLink: null,
-      githubLink: 'https://github.com/salimmlana/travloc',
+      githubLink: 'https://github.com/aimlana/Capstone-Travloc',
       images: [trv1, trv2, trv3, trv4, trv5, trv6],
       features: [
         'Destination directory with advanced filtering by category, rating, and location',
@@ -241,7 +241,8 @@ const ProjectDetail = () => {
       ],
       color: '#9D4EDD',
       accentColor: 'bg-[#9D4EDD]',
-      projectLink: 'https://sifa.example.com',
+      projectLink:
+        'https://www.figma.com/design/AJuVZSDYnSK0mIHUvowM1A/SI-FA--Tugas-Akhir-?node-id=1130-63&p=f&t=ogvQS4xX5kg17L7R-0',
       githubLink: null,
       images: [sifa1, sifa2, sifa3, sifa4, sifa5, sifa6],
       features: [
@@ -279,8 +280,8 @@ const ProjectDetail = () => {
       ],
       color: '#FF9E6D',
       accentColor: 'bg-[#FF9E6D]',
-      projectLink: 'https://salimmaulana.example.com',
-      githubLink: 'https://github.com/salimmlana/portfolio-v3',
+      projectLink: 'https://salim-maulana-portofolio.vercel.app/',
+      githubLink: 'https://github.com/aimlana/SalimMaulana-Portofolio',
       images: [porto1, porto2, porto3, porto4, porto5, porto6],
       features: [
         'Dark/light mode toggle with system preference detection',
