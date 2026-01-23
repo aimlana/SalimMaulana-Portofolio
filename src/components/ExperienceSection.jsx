@@ -6,66 +6,64 @@ const ExperienceSection = () => {
 
   const experiences = [
     {
-      title: 'Web Developer',
-      company: 'RM. Ratu Boga Order Management',
+      title: 'Fullstack Web Developer',
+      company: 'Sistem Pemesanan QR Code RM. Ratu Boga',
       location: 'Makassar, Indonesia',
-      date: 'Jun 2025 – Present',
-      duration: 'Current',
+      date: 'Jul 2025 – Nov 2025',
+      duration: '5 months',
       description: [
-        'Developed a web-based self-ordering system where customers can scan a QR code to place food orders directly.',
-        'Integrated features like cart, checkout, table tracking, payment methods, and real-time order flow.',
+        'Developed an end-to-end web-based self-ordering system using QR codes as a full system renewal.',
+        'Built frontend with ReactJS and backend with ExpressJS, separating guest, customer, and admin roles.',
+        'Implemented QR-based ordering flow, menu & order management, and payment transaction records.',
+        'Applied WebSocket for real-time new orders, order status updates, and payment confirmations.',
+        'Project completed 100% and ready for deployment.',
       ],
-      tags: ['React', 'Express', 'Node.js', 'MongoDB'],
-      type: 'current'
+      tags: ['React', 'Express', 'Node.js', 'WebSocket', 'MySQL'],
+      type: 'fullstack',
     },
     {
       title: 'UI/UX Designer',
-      company: 'SI-FA Faculty of Pharmacy Hasanuddin University',
+      company: 'NPE Digital – SI-FA Faculty of Pharmacy Universitas Hasanuddin',
       location: 'Makassar, Indonesia',
-      date: 'Dec 2022 - May 2023',
+      date: 'Nov 2022 – Apr 2023',
       duration: '6 months',
       description: [
-        'Designed and developed a final project management system and digital correspondence platform.',
-        'Created a faculty information system with user-friendly UI/UX and efficient data flow.',
+        'Collaborated with team to identify user needs and align designs with brand guidelines.',
+        'Designed consistent and professional UI for faculty information systems.',
+        'Conducted UI testing and iterative design improvements to ensure usability.',
       ],
-      tags: ['Figma', 'UI/UX', 'Prototyping', 'Wireframing'],
-      type: 'design'
+      tags: ['Figma', 'UI/UX', 'Design System', 'Prototyping'],
+      type: 'design',
     },
     {
-      title: 'Laravel Developer',
-      company: 'RM. Ratu Boga Web System',
+      title: 'Youth IT Digital Development Intern',
+      company: 'Telkomsel Regional Sulawesi',
       location: 'Makassar, Indonesia',
-      date: 'Jan 2022 – Jun 2022',
-      duration: '6 months',
+      date: 'Aug 2025 – Dec 2025',
+      duration: '5 months',
       description: [
-        'Built a digital restaurant system using Laravel for food ordering and sales management.',
-        'Implemented dynamic menus, transaction workflows, and multi-level user access.',
+        'Developed TRUBERS system including content scoring, leaderboard, and admin dashboard.',
+        'Scraped public data from TikTok and Instagram to analyze engagement metrics.',
+        'Built WAJO (WhatsApp Jadwal Otomatis) for automated scheduling and broadcast messaging.',
+        'Supported operational and field activities for digital education and fintech adoption.',
       ],
-      tags: ['Laravel', 'PHP', 'MySQL', 'Bootstrap'],
-      type: 'backend'
-    },
-    {
-      title: 'Java Developer',
-      company: 'Library Inventory System',
-      location: 'Makassar, Indonesia',
-      date: 'Feb 2021 – Jul 2021',
-      duration: '6 months',
-      description: [
-        'Created a basic desktop application using Java for managing a library\'s book collection.',
-        'Implemented core CRUD operations for books and members, connected to a local database.',
-      ],
-      tags: ['Java', 'Desktop App', 'SQLite', 'Swing'],
-      type: 'desktop'
+      tags: ['React', 'Express', 'JavaScript', 'Web Scraping', 'MySQL'],
+      type: 'internship',
     },
   ];
 
   const getTypeLabel = (type) => {
-    switch(type) {
-      case 'current': return 'Current Role';
-      case 'design': return 'UI/UX Design';
-      case 'backend': return 'Backend Development';
-      case 'desktop': return 'Desktop Application';
-      default: return 'Professional';
+    switch (type) {
+      case 'current':
+        return 'Current Role';
+      case 'design':
+        return 'UI/UX Design';
+      case 'backend':
+        return 'Backend Development';
+      case 'desktop':
+        return 'Desktop Application';
+      default:
+        return 'Professional';
     }
   };
 

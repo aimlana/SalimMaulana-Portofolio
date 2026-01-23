@@ -22,7 +22,7 @@ const Header = () => {
 
         <motion.a
           layoutId='brand'
-          href='/home'
+          href='/'
           className='flex items-center gap-2 md:gap-3 cursor-pointer'
           transition={{
             type: 'spring',
