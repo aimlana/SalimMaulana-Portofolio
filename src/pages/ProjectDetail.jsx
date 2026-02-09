@@ -583,7 +583,7 @@ const ProjectDetail = () => {
                 <button
                   key={otherProject.id}
                   onClick={() => navigate(`/projects/${otherProject.id}`)}
-                  className='group text-left'
+                  className='group text-left cursor-pointer'
                 >
                   <div className='aspect-video overflow-hidden mb-4'>
                     <img
